@@ -1,7 +1,7 @@
 # - Try to find Eigen3 lib
 #
 # This module supports requiring a minimum version, e.g. you can do
-#   find_package(Eigen3 3.1.2)
+#   find_package(Eigen3 3.1.2 NO_MODULE)
 # to require version 3.1.2 or newer of Eigen3.
 #
 # Once done this will define
@@ -84,4 +84,3 @@ else (EIGEN3_INCLUDE_DIR)
   mark_as_advanced(EIGEN3_INCLUDE_DIR)
 
 endif(EIGEN3_INCLUDE_DIR)
-
